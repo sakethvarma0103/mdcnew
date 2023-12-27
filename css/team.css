@@ -1,0 +1,275 @@
+/* * =======about===== * */
+.team {
+    background-color: white;
+    /* box-shadow: inset 0 0 3rem rgba(0,0,0,0.5); */
+    /* padding-top: 1rem; */
+}
+
+.team h2 {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.team_container_pos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.team_container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    padding-bottom: 2rem;
+
+}
+
+.team_member {
+
+    background-color: whitesmoke;
+    padding: 1rem 1rem 0rem;
+    border: 1px solid transparent;
+    position: relative;
+    height: fit-content;
+    overflow: hidden;
+    border-radius: 0.7rem;
+}
+
+.core_team .team_member {
+    height: 17rem;
+}
+
+.team_member_pos {
+    background-color: whitesmoke;
+    padding: 2rem 2rem 0rem;
+    border: 1px solid transparent;
+    position: relative;
+    height: fit-content;
+    overflow: hidden;
+    border-radius: 0.7rem;
+}
+
+
+
+.team_member:hover {
+    background-color: transparent;
+    border: 1.5px solid var(--main-blue);
+
+}
+
+
+
+.team_memeber_image img {
+    height: 1px;
+    width: 1px;
+    filter: saturate(1);
+    transition: var(--transition);
+    border-radius: 0.7rem 0.7rem 0 0rem;
+}
+
+
+
+.team_member:hover img {
+    filter: saturate(1);
+    scale: 1.2;
+
+}
+
+.team_member_info * {
+    text-align: center;
+    margin: 1rem;
+}
+
+.team_member_info p {
+    color: var(--color-light);
+
+}
+
+
+.team_member_socials {
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: -100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-blue);
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.3);
+    transition: var(--transition);
+}
+
+.team_member_socials a {
+    padding: 1rem;
+}
+
+.team_member:hover .team_member_socials {
+    right: 0;
+}
+
+
+.exe_team .team_memeber_image img {
+    object-fit: cover;
+    width: 220px;
+    height: 220px;
+    margin-bottom: 2%;
+}
+
+
+
+.pos_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: rem; */
+    /* padding-bottom: 2rem;    */
+}
+
+.pos_member {
+    margin: 10px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.4fr;
+    overflow: hidden;
+
+}
+
+.pos_member:hover {
+    background-color: transparent;
+    border: 1.5px solid var(--main-blue);
+}
+
+.pos_member:hover img {
+    scale: 1.1;
+    transform: ease 0.5s;
+}
+
+
+.pos_memeber_image {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pos_memeber_image img {
+    width: 70%;
+    border-radius: 0.7rem;
+    transition: var(--transition);
+}
+
+
+.pos_member_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+
+    /* flex-wrap: wrap; */
+}
+
+.pos_member_socials {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    font-size: larger;
+    /* grid-template-columns: repeat(3,1fr); */
+    color: black;
+}
+
+.sree {
+    position: relative;
+    right: 1.8rem;
+}
+.ex
+{
+    position: relative;
+    top:20%;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}
+.team_member_info i
+{
+    font-size: 50px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-wrapper {
+    margin-bottom: 2rem;
+}
+
+
+@media screen and (max-width:576px) {
+    .pos_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding-bottom: 2rem;
+
+    }
+
+    .team_member {
+        padding: 1rem;
+    }
+    .exe_team .team_member {
+        height: 15rem;
+    }
+
+    .core_team .team_member {
+        height: 14rem;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .exe_team .team_memeber_image img {
+        object-fit: cover;
+        width: 130px;
+        height: 130px;
+    }
+
+    .core_team .team_member_info {
+        text-align: center;
+    }
+
+    .sree {
+        position: relative;
+        right: 70%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{}

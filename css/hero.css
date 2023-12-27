@@ -1,0 +1,113 @@
+.home__container {
+    position: relative;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    gap:20px
+}
+.home__data-content
+{
+    margin-top: 5rem;
+}
+.meta__img
+{
+    width: 100px;
+}
+.home__data {
+    justify-content: center;
+    
+}
+.home__handle
+{
+    max-width: 40rem;
+}
+
+.home__greeting {
+    display: block;
+    color:#0668E1;
+    font-size: 120px;
+    font-weight: 450;
+    margin-bottom: 0.25rem;
+}
+
+.home__name
+{
+    font-size: 40px;
+    margin: 10px;
+}
+.home__education {
+    font-size: 30px;
+    color: var(--text-color);
+    margin-bottom: 2.5rem;
+}
+
+.home__img {
+    width: 400px;
+}
+
+
+.home__scroll {
+    position: absolute;
+}
+
+
+.home__scroll {
+    color: var(--first-color);
+    right: -1.5rem;
+    bottom: 4rem;
+    display: grid;
+    row-gap: 2.25rem;
+    justify-content: center;
+    /* margin: auto; */
+    /* align-items: center; */
+}
+
+.home__scroll-icon {
+    /* display: grid; */
+    justify-self: center;
+    font-size: 1.25rem;
+}
+
+.home__scroll-name {
+    font-size: var(--smaller-font-size);
+    transform: rotate(-90deg);
+}
+
+
+@media screen and (max-width:576px) 
+{
+    .meta__img
+    {
+        width: 80px;
+    }
+    .home__greeting {
+        font-size: 100px;
+        font-weight: 400;
+    }
+    .home__container {
+        grid-template-columns: 1fr ;
+    }
+    .home__name
+{
+    font-size: 40px;
+}
+.home__education {
+    font-size: 20px;
+
+}
+    .home__img {
+        margin-top: 80px;
+    width: 250px;
+}
+.home__handle
+{
+    max-width: 0rem;
+    display: none;
+}
+    
+}
+
+.headimg
+{
+    width: 10px;
+}
