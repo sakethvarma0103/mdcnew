@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<!--=============== FAVICON ===============-->
+<link rel="shortcut icon" href="assets/img/Meta_Logo-PNG-ndnknvi4.png" type="image/x-icon">
+<script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+
+<!--=============== BOXICONS ===============-->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<!--=============== SWIPER CSS ===============-->
+<link rel="stylesheet" href="/css/swiper-bundle.min.css">
+
+<!-- Bootstrap CSS File -->
+<!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+<!--=============== CSS ===============-->
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/contact.css">
+<link rel="stylesheet" href="/css/team.css">
+<link rel="stylesheet" href="/css/faqs.css">
+<link rel="stylesheet" href="/css/about.css">
+<link rel="stylesheet" href="/css/domains.css">
+<link rel="stylesheet" href="/css/footer.css">
+<link rel="stylesheet" href="/css/hero.css">
+<link rel="stylesheet" href="/css/events_sub.css">
+<link rel="stylesheet" href="/css/popup.css">
+
+
+<title> Meta Developer Circles </title>
+</head>
+
+<body class="light-theme">
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" id="homepage" class="nav__logo">META DEVELOPER CIRCLES</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link ">
+                            <i onclick="goToHomePage()" class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i onclick="goToaboutPage()" class='bx bxl-meta'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#events" class="nav__link active-link">
+                            <i onclick="goToteamPage()" class='bx bx-code-block'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i onclick="goToteamPage()" class='bx bx-group'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-detail'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <label class="switch" >
+                <input type="checkbox" id="theme-button">
+                <span class="slider"></span>
+            </label> -->
+            <!-- <i class='bx bx-moon change-theme' id="theme-button"></i> -->
+        </nav>
+    </header>
+
+    <section style="margin-top: 5rem;" class="exteam">
+        <div class="team container exe_team ">
+            <header class="section-header">
+                <h2 class="section-title">Executive Board [2022-2023]</h2>
+            </header>
+            <div class=" team_container">
+
+                <article class="team_member">
+                    <div class="team_memeber_image">
+                        <img src="team/Sanjana__eb.jpeg" alt="">
+                    </div>
+                    <div class="team_member_info">
+                        <h6 style="color: black; font-size: 10px;">Sanjana Rayavarapu</h6>
+                        <p style="font-size: 14px; color: #0078D4;">President</p>
+                    </div>
+                    <div class="team_member_socials">
+                        <a href="https://www.instagram.com/" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="team_member">
+                    <div class="team_memeber_image">
+                        <img src="team/Sourit_Maji.jpeg" alt="">
+                    </div>
+                    <div class="team_member_info">
+                        <h6 style="color: black; font-size: 12px;">Sourit Maji</h6>
+                        <p style="font-size: 14px; color: #0078D4;">Vice President</p>
+                    </div>
+                    <div class="team_member_socials">
+                        <a href="https://www.instagram.com/" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </article>
+
+                <article class="team_member">
+                    <div class="team_memeber_image">
+                        <img src="team/Harshita_PVG.jpeg" alt="">
+                    </div>
+                    <div class="team_member_info">
+                        <h6 style="color: black; font-size: 12px;">Harshita PVG</h6>
+                        <p style="font-size: 14px; color: #0078D4;">Technical Lead</p>
+                    </div>
+                    <div class="team_member_socials">
+                        <a href="https://www.instagram.com/" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="team_member">
+                    <div class="team_memeber_image">
+                        <img src="team/Sirisha_Konari.jpeg" alt="">
+                    </div>
+                    <div class="team_member_info">
+                        <h6 style="color: black; font-size: 12px;">Sirisha Konari</h6>
+                        <p style="font-size: 14px; color: #0078D4;">Creative Lead</p>
+                    </div>
+                    <div class="team_member_socials">
+                        <a href="https://www.instagram.com/" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="team_member">
+                    <div class="team_memeber_image">
+                        <img src="team/Vivek_M.jpeg" alt="">
+                    </div>
+                    <div class="team_member_info">
+                        <h6 style="color: black; font-size: 12px;">Vivek Malapaka</h6>
+                        <p style="font-size: 14px; color: #0078D4;">HOP</p>
+                    </div>
+                    <div class="team_member_socials">
+                        <a href="https://www.instagram.com/" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </article>
+                <article class="team_member">
+                    <div class="team_memeber_image">
+                        <img src="team/Snigdha_G.jpeg" alt="">
+                    </div>
+                    <div class="team_member_info">
+                        <h6 style="color: black; font-size: 9px; ">Snigdha Gaddamanagu</h6>
+                        <p style="font-size: 14px; color: #0078D4;">Secretary</p>
+                    </div>
+                    <div class="team_member_socials">
+                        <a href="https://www.instagram.com/" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </article>
+
+
+            </div>
+        </div>
+
+        <div class="team container core_team">
+            <header class="section-header">
+                <h2 class="section-title">Core Team [2022-2023]</h2>
+            </header>
+            <div class="swiper mySwiper core_team_container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/amai.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Amrutha Kakumani</h6>
+                                <p style="font-size: 15px; color: #0078D4;">Analytics</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/tanct.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Tanmay Chikkala</h6>
+                                <p style="font-size: 15px; color: #0078D4;">Content</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/bathu.png" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Bhargav Repaka</h6>
+                                <p style="font-size: 15px; color: #0078D4;">Product Design</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/kaucp.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Ande <br> Kaushik</h6>
+                                <p style="font-size: 14px; color: #0078D4">Competitive Programming</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/harsh2.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Harshita Kolipaka</h6>
+                                <p style="font-size: 15px; color: #0078D4;">Analytics</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/sumeet.png" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Sumeet<br> Prusty</h6>
+                                <p style="font-size: 15px; color: #0078D4;">UI/UX</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/Simran Cropped.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Simran <br>Royra</h6>
+                                <p style="font-size: 15px; color: #0078D4;">Public Relations</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/kailash.png" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Kailash<br> Sriram</h6>
+                                <p style="font-size: 15px; color: #0078D4;">AR/VR</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/Siddarth Datti Cropped.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Siddarth <br> Datti </h6>
+                                <p style="font-size: 15px; color: #0078D4;">Public Relations</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/revui.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Revanth<br>Katari</h6>
+                                <p style="font-size: 15px; color: #0078D4;">UI/UX</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/chai.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Chamarti <span
+                                        class="sree">Sreemannarayana</span></h6>
+                                <p style="font-size: 15px; color: #0078D4;">Analytics</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/anct.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">K.Anoop<br>Reddy</h6>
+                                <p style="font-size: 15px; color: #0078D4;">Content</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/maniai.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">R.Mani Venkat Pradeep</h6>
+                                <p style="font-size: 15px; color: #0078D4;">Analytics</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/mehakpd.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Mehak<br> Agarwal</h6>
+                                <p style="font-size: 15px; color: #0078D4;">Product Design</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/Sanjay Cropped.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Sanjay Chandagani</h6>
+                                <p style="font-size: 15px; color: #0078D4;">UI/UX</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/vivcp.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Vivian<br>Paul</h6>
+                                <p style="font-size: 15px; color: #0078D4;">Competitive Programming</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/vict.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Villuri<br>Chitkala</h6>
+                                <p style="font-size: 15px; color: #0078D4;">Content</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/Anusha Cropped.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Anusha Nehethi</h6>
+                                <p style="font-size: 15px; color: #0078D4;">Public Relations</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/venkat.png" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Venkat<br> Swaraj</h6>
+                                <p style="font-size: 15px; color: #0078D4;">AR/VR</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/me.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">D.Saketh Varma</h6>
+                                <p style="font-size: 15px; color: #0078D4;">Product Design</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="team_member">
+                            <div class="team_memeber_image">
+                                <img src="team/Rohan Cropped.jpg" alt="">
+                            </div>
+                            <div class="team_member_info">
+                                <h6 style="font-size:14px; color: black;">Rohan Arekatla</h6>
+                                <p style="font-size: 15px; color: #0078D4;">Competitive Programming</p>
+                            </div>
+                            <div class="team_member_socials">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+          <div class="rows">
+            <div class="footer-about">
+              <h2>About</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore minima qui recusandae pariatur, amet, labore sapiente illum aliquam temporibus ut similique maxime debitis quae dolorum fugit! Repellat accusantium ullam eaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt tempore veritatis eos inventore delectus, impedit recusandae quis, laborum placeat a optio tempora cum dolores, debitis dolor? Eum quod fugit eligendi?</p>
+            </div>
+  
+            <div class="domains-footer">
+              <h2>Categories</h2>
+              <ul class="footer-links">
+                <li>Analytics</li>
+                <li>AR/VR</li>
+                <li>Product Design</li>
+                <li>Competitive Programming</li>
+                <li>Content</li>
+                <li>UI/UX</li>
+                <li>Public Relations</li>
+                <li>Photography</li>
+              </ul>
+            </div>
+  
+            <div class="links">
+              <h2>Quick Links</h2>
+              <ul class="footer-links-l">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <br>
+          <hr>
+        </div>
+        <div class="bottom">
+            <div class="copyright">
+                <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+                    <a href="#">GITAM</a>.
+                </p>
+            </div>
+            <div class="socials">
+                <ul>
+                    <a href="" class="footer__social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="" class="footer__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="" class="footer__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </ul>
+
+            </div>
+        </div>
+  </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 8,
+            spaceBetween: 3,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                // when window width is <= 480px
+                0: {
+                    slidesPerView: 3,
+                    spaceBetween: 6
+                },
+                // when window width is <= 480px
+                480: {
+                    slidesPerView: 4,
+                    spaceBetween: 6
+                },
+                // when window width is <= 768px
+                768: {
+                    slidesPerView: 8,
+                    spaceBetween: 3
+                },
+            }
+        });
+        var divElement = document.getElementById("homepage");
+        divElement.addEventListener("click", function () {
+            window.open('index.html');
+        });
+        </script>
+</body>
